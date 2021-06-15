@@ -9,5 +9,5 @@ puts "----------"
 @store2 = Store.find_by(id: 2)
 
 puts @store1.inspect
-@store1.update(name: "Burnaby")
+@store1.update(name: "Burnbaby")
 puts @store1.inspect
