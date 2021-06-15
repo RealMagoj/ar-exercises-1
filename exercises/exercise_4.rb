@@ -7,7 +7,8 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-surrey = Store.create(name: "Surrey", annual_revenue: 224000, mens_apparel: false, womens_apparel: true)
+surrey = Store.create(name: "Surrey", annual_revenue: 224000, mens_apparel: false, womens_apparel: false)
+puts surrey.errors.full_messages
 whistler = Store.create(name: "Whistler", annual_revenue: 1900000, mens_apparel: true, womens_apparel: false)
 yaletown = Store.create(name: "Yaletown", annual_revenue: 430000, mens_apparel: true, womens_apparel: true)
 
